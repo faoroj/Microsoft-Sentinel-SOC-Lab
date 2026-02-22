@@ -72,9 +72,13 @@ SigninLogs
 
 ```
 
-architecture/        → Environment design and diagrams  
-data-sources/        → Log ingestion configuration  
-attack-simulation/   → Steps used to generate test activity  
-detections/          → KQL queries and detection logic  
-incidents/           → Investigation reports and findings  
-evidence/            → Screenshots and supporting artifacts  
+## Repository Structure
+
+| Folder | Description |
+|---|---|
+| `architecture/` | Environment design and architecture diagrams |
+| `data-sources/` | Log ingestion configuration and connector validation |
+| `attack-simulation/` | Steps used to generate simulated suspicious activity |
+| `detections/` | KQL queries and detection rule configuration |
+| `incidents/` | Incident investigation reports and analysis |
+| `evidence/` | Screenshots and supporting investigation artifacts |
